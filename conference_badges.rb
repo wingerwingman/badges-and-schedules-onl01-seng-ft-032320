@@ -1,10 +1,7 @@
-
 def badge_maker(array)
-  new_array = []
-  array.each do |name|
-    new_array << "Hello, my name is #{name}"
-    binding.pry
-  end
-  return new_array
+  new_arr = []
+  array.each {|name| new_arr << "Hello, my name is #{name}"}
+  puts new_arr
 end
+badge_maker
 
