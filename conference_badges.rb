@@ -19,7 +19,7 @@ def assign_rooms(speakers)
     rooms.each do |room_assigned|
       list2 << "You'll be assigned to room #{room_assigned}!"
     end
-    
+    list.zip(list2)
   end
   list
 end
