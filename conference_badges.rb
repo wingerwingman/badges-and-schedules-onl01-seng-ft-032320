@@ -19,8 +19,7 @@ def assign_rooms(speakers)
     list << "Hello, #{name}! " 
     rooms.each do |room_assigned|
       list2 << "You'll be assigned to room #{room_assigned}!"
-    end
-    final_list << list.zip(list2).flatten!
+   
   end
   final_list
 end
