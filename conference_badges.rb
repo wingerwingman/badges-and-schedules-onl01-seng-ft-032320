@@ -1,8 +1,4 @@
-def badge_maker(array)
-  new_arr = []
-  array.each {|name| new_arr << "Hello, my name is #{name}"}
-  puts new_arr
+def badge_maker(name)
+  return "Hello, my name is #{name}"
 end
-
-badge_maker
 
