@@ -12,7 +12,7 @@ end
 
 def assign_rooms(speakers)
   list = []
-  rooms = 1
+  room = 1
   speakers.each do |name|
     list << "Hello, #{name}! You'll be assigned to room #{room}!"
     room += 1
