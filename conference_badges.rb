@@ -12,6 +12,7 @@ end
 
 def assign_rooms(speakers)
   list = []
+  list2 = []
   rooms = [1 ,2 ,3 ,4 ,5 ,6 ,7]
   speakers.each do |name|
     rooms.each do |room_assigned|
